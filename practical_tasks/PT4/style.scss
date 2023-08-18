@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  background-color: darkgray;
+  gap: 20px;
+}
+
+.dogs img {
+  width: 680px;
+  transition: all 1;
+}
